@@ -1,5 +1,5 @@
 # cheating_detector
-This AI detects suspicious eye movement of students in the exam.
+This AI detects suspicious eye movements of students in the exam.
 
 ![cheating_detector](https://user-images.githubusercontent.com/7350397/152345617-904af23c-4945-42f3-b38b-bb59f1b34b5b.jpg)
 
@@ -14,14 +14,14 @@ https://youtu.be/2bgxs5Pk06Q
 - Follow the "Setting up Jetson with JetPack" and "Running the Docker Container" steps.
 - Git clone this project.
 
-        $ git clone --recursive https://github.com/ryusukemomota/cheating_detector
+        $ git clone https://github.com/ryusukemomota/cheating_detector
         $ cd jetson-inference
-        $ docker/run.sh --v /my/host/path:/my/container/path
+        $ docker/run.sh -v /my/host/cheating_detector:/my/container/path #Please use your local git clone absolute path.
         $ cd /my/container/path
         $ python3 cheater_detector.py /dev/video0 # csi://0 if using RaspberryPi CSI camera
     
 ## How it works?
-- The program is based on the demo program for the Pose Estimation with PoseNet (posenet.py) and the pre-trained pose estimation model "Pose-ResNet18-Body".
+- The program is based on the demo program for the Pose Estimation with PoseNet (posenet.py) of "HELLO AI WORLD" and the pre-trained pose estimation model "Pose-ResNet18-Body".
 - This program evaluates the triangular shape by nose (Keypoint: 0), left_eye (Keypoint: 1) and right_eye (Keypoint: 2) to estimate the direction of the gaze.
 - The side of the triangle between the left_eye and right_eye were evenly divided into three parts: right, middle and left.
 - If the value of nose.x is within the range of x-value of the middle part, it returns "front: OK". Otherwise, it will return "right" or "left".
