@@ -1,5 +1,5 @@
 # cheating_detector
-This AI detects suspicious eye movements of students in the exam.
+Students may feel cheating in exams is a quick solution, but it surely ruins their self-esteem and causes distrust by teachers os well as colleagues. Surveillance camera with movement detections can be a great preventative measure. This AI detects suspicious eye movements of students in the exam.
 
 ![cheating_detector](https://user-images.githubusercontent.com/7350397/152345617-904af23c-4945-42f3-b38b-bb59f1b34b5b.jpg)
 
