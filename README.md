@@ -1,5 +1,7 @@
 # cheating_detector
-Students may feel cheating in exams is a quick solution, but it surely ruins their self-esteem and causes distrust by teachers os well as colleagues. Surveillance camera with movement detections can be a great preventative measure. This AI detects suspicious eye movements of students in the exam.
+
+## Motivations
+Students may feel cheating in exams is a quick solution, but it surely ruins their self-esteem and causes distrust among teachers os well as colleagues, compromising learning atmosphere. Surveillance by an intelligent machine eye can be a great preventative measure. This AI detects suspicious eye movements in the exam.
 
 ![cheating_detector](https://user-images.githubusercontent.com/7350397/152345617-904af23c-4945-42f3-b38b-bb59f1b34b5b.jpg)
 
@@ -11,7 +13,7 @@ https://youtu.be/2bgxs5Pk06Q
 - USB Web Camera or Raspberry pi camera module (V2)
 
 ## Set Up and Docker
-- Follow the "Setting up Jetson with JetPack" and "Running the Docker Container" steps.
+- Follow the "Setting up Jetson with JetPack" and "Running the Docker Container" steps in "HELLO AI WORLD" (https://github.com/dusty-nv/jetson-inference#hello-ai-world).
 - Git clone this project.
 
         $ git clone https://github.com/ryusukemomota/cheating_detector
@@ -30,7 +32,6 @@ https://youtu.be/2bgxs5Pk06Q
 
 ## Issues
 - Never tested in real exams. Use with cautions!
-- 
 
 ## Future directions
 - Currently, working on changing the color for "ALERT" message from white to red or orange.
