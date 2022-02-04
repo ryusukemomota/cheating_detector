@@ -14,11 +14,11 @@ https://youtu.be/2bgxs5Pk06Q
 - Follow the "Setting up Jetson with JetPack" and "Running the Docker Container" steps.
 - Git clone this project.
 
-    $ git clone --recursive https://github.com/ryusukemomota/cheating_detector
-    $ cd jetson-inference
-    $ docker/run.sh --v /my/host/path:/my/container/path
-    $ cd /my/container/path
-    $ python3 cheater_detector.py /dev/video0 # csi://0 if using RaspberryPi CSI camera
+        $ git clone --recursive https://github.com/ryusukemomota/cheating_detector
+        $ cd jetson-inference
+        $ docker/run.sh --v /my/host/path:/my/container/path
+        $ cd /my/container/path
+        $ python3 cheater_detector.py /dev/video0 # csi://0 if using RaspberryPi CSI camera
     
 ## How it works?
 - The program is based on the demo program for the Pose Estimation with PoseNet (posenet.py) and the pre-trained pose estimation model "Pose-ResNet18-Body".
