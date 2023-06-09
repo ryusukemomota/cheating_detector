@@ -31,7 +31,7 @@ https://youtu.be/2bgxs5Pk06Q
 <img width="935" alt="cheating_detector" src="https://user-images.githubusercontent.com/7350397/152495301-3a1556d7-aa98-490e-86e2-3638c375b361.png">
 
 ## Issues
-- Never tested in real exams. Use with cautions!
+- ~~Never tested in real exams.~~ Follow your organization's privacy policy. Use with cautions!
 
 ## Future directions
 - Currently, working on changing the color for "ALERT" message from white to red or orange.
