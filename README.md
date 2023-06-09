@@ -1,7 +1,7 @@
 # cheating_detector
 
 ## Motivations
-Students may feel cheating in exams is a quick solution, but it surely ruins their self-esteem and causes distrust among teachers os well as colleagues, compromising learning atmosphere. Surveillance by an intelligent machine eye can be a great preventative measure. This AI detects suspicious eye movements in the exam.
+Students may feel cheating in exams is a quick solution, but it surely ruins their self-esteem and causes distrust among teachers as well as colleagues, compromising learning atmosphere. Surveillance by an intelligent machine eye can be a great preventative measure. This AI detects suspicious eye movements in the exam.
 
 ![cheating_detector](https://user-images.githubusercontent.com/7350397/152345617-904af23c-4945-42f3-b38b-bb59f1b34b5b.jpg)
 
